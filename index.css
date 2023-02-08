@@ -84,7 +84,7 @@ font:bolder;
 
 }
 .input-section{
-    color: red;
+   
     padding:20px;
     margin:15px;
     font-family: 'Itim', cursive;
@@ -92,7 +92,9 @@ font:bolder;
     box-shadow:0 5px 5px 4px rgb(0 0 0 / 10%);
 }
 .input{
+    color: red;
     display:flex;
+
     margin-bottom: 30px;
     padding-left:25px;
     column-gap: 100px;
@@ -108,9 +110,9 @@ font:bolder;
 .input>div>input:focus{
     border-color: aqua;
 }
-.submit{
-margin:30px;
-padding-left:40px;
+.submit,.log-in{
+margin:15px 15px 10px 15px;
+padding:20px;
 
 }
 button{
@@ -118,10 +120,18 @@ button{
     color:white;
     border-radius:8px;
     padding:15px;
-    width:200px;
     font-size: 15px;
     border-color:cadetblue;
     font-weight: 700;
     font-size: 1.1rem;
     box-shadow: 2px 5px 5px 4px rgb(0 0 0 / 10%);
+}
+.log-in{
+    font-size: 1.1rem;
+}
+.login{
+    color:cadetblue;
+}
+.login:hover{
+    color:rgb(50, 120, 123);
 }
