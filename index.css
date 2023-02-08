@@ -110,7 +110,7 @@ font:bolder;
 .input>div>input:focus{
     border-color: aqua;
 }
-.submit,.log-in{
+.submission,.log-in{
 margin:15px 15px 10px 15px;
 padding:20px;
 
@@ -134,4 +134,7 @@ button{
 }
 .login:hover{
     color:rgb(50, 120, 123);
+}
+button:hover{
+    background-color:rgb(50, 120, 123);
 }
